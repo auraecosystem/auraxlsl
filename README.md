@@ -36,7 +36,7 @@ TEST
 —————
 
 
-```txt
+```srl
 ┌───────────────────────────────────────────────┐
 │ Aura Orb [Menu]         Clock   User Avatar   │
 └───────────────────────────────────────────────┘
@@ -77,7 +77,7 @@ Interactive drag-and-drop quantum circuit simulator with GPU-accelerated backend
 
 ## Installation
 ```bash
-git clone <repo-url>
+man git-clone <https://github.com/auraecosystem/auraxlsl.git>
 cd AuraQuantumIDE
 pip install -r requirements.txt
 uvicorn api.main:app --reload
@@ -89,7 +89,7 @@ uvicorn api.main:app --reload
 
 —————
 
-```
+```csv
 ┌───────────────────────────────────────────────┐
 │               Aura miniOS Core                │
 │  - OS Kernel & Container Engine (Docker/VM)  │
@@ -159,26 +159,32 @@ uvicorn api.main:app --reload
     └── main.py
 ```
 # orchestrator script
-—————
+
 .xlsl — Logic Spreadsheet workbook (Core)
+
 
 ## Purpose
 
- | A structured, Excel-compatible file format designed as the hub for mathematics, physics, reasoning, and simulation data. |
+ | A structured, Excel-compatible file format designed as the hub for mathematics, physics, reasoning, and simulation data.
+ |
 
 ## Structure
 
   |  Reserved sheets: 
-  Pure_Mathematics, Further_Mathematics, Applied_Physics, Reasoning_Logic, Simulation_Problems, Teleportation_Simulation. |
+  Pure_Mathematics, Further_Mathematics, Applied_Physics, Reasoning_Logic, Simulation_Problems, Teleportation_Simulation.
+  |
   
 • Tabular format with rows = entities, columns = attributes.
 
 |  Use-Cases:
 -	•	Knowledge base for AI-assisted reasoning.
 -	•	STEM modeling and theoretical experimentation.
--	•	Foundation for linking with other Aura extensions. |
+-	•	Foundation for linking with other Aura extensions.
+|
 
 ⸻
+
+
 
 <a href="https://github.com/Web4application/Aura">Auraworkbook.xlsl</a> by <a href="https://github.com/Web4application/Aura">Seriki Yakub</a> is marked <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/zero.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
 
@@ -186,7 +192,8 @@ uvicorn api.main:app --reload
 
 ## Purpose
 
- |   Represents quantum states, entanglement, and teleportation in tabular form. |
+ |   Represents quantum states, entanglement, and teleportation in tabular form.
+ |
 
 |    Structure:
 	•	Core sheets: Qubits, Entanglement, Teleportation, Noise_Models.
@@ -195,7 +202,8 @@ uvicorn api.main:app --reload
  |   Use-Cases:
 	•	AI-assisted quantum state reasoning.
 	•	Interoperability with Qiskit, Cirq, Rigetti simulators.
-	•	Teleportation experiment modeling. |
+	•	Teleportation experiment modeling. 
+	|
 
 ⸻
 
@@ -206,12 +214,14 @@ uvicorn api.main:app --reload
 
 |    Structure:
 
-Simulation_ID | Input_Data | Governing_Equations | Solver_Method | Output_Parameters | Error_Margin | Notes |
+Simulation_ID | Input_Data | Governing_Equations | Solver_Method | Output_Parameters | Error_Margin | Notes
+|
 
 |    Use-Cases:
 	•	Energy cost of teleportation.
 	•	Wormhole/dimensional collapse simulations.
-	•	Linking spreadsheet experiments to computational solvers (Python, MATLAB). |
+	•	Linking spreadsheet experiments to computational solvers (Python, MATLAB).
+|
 
 ⸻
 
@@ -288,22 +298,21 @@ Use_Cases
 	    •	Can store notes about potential biases in AI models or quantum simulations.
       	•	Useful for documenting decisions to comply with research ethics or regulatory standards.
 
-  3.  ## Economics_Records |
-  
+  3.  ## Economics_Records
+  |
 	•	Records costs of interventions, treatments, or experiments.
 	•	Can calculate cost-benefit analyses or ROI for clinical trials, lifespan interventions, or quantum computing experiments.
 	•	Includes metrics like budget, actual expenditure, projected savings, and economic feasibility.
 	
  3.	##   Simulation_Scenarios
- 4.	 |
- 
+   |
 	•	Enables “what-if” analysis across multiple domains such as diet, medication, stress, or environmental factors.
 	•	Stores initial conditions, parameters, and expected outputs for each simulation.
 	•	Can feed into AI or quantum pipelines to test different hypotheses before running real experiments.
 	
  5.	## Visualization_Config
- 6.	 |
- 
+ 	 |
+
 	•	Contains preferred chart types, axis mappings, thresholds, and color schemes.
 	•	Supports automated plotting in Python, ensuring consistency in presentation and reporting.
 	•	Useful for dashboards or publication-ready figures generated from data in other sheets.
@@ -354,7 +363,6 @@ Ai_quantum_workflows|Advanced_Mathematics → | tensors, eigenvalues, PDEs, appl
 	•	STEM research is fully supported:    mathematical models, physics parameters, reasoning experiments, and genomics data are all accessible in one system.
 	
 ```bash
-
     aura_project/
     ├── data/
     │    └── Aura.xlsl           # fully expanded workbook with 25+ sheets
@@ -441,8 +449,8 @@ visualization Config
 
 ⸻
 
-## Implementation plan for new sheets |
-
+## Implementation plan for new sheets 
+|
 	1.	Ethics_Notes
 	•	Tracks privacy, consent, bias, and fairness considerations.
 	•	Can store annotations for AI and quantum experiments.
@@ -460,8 +468,7 @@ visualization Config
 	6.	Deployment
 	•	Stores endpoint URLs, API keys, runtime environments, and configuration notes for AI models and quantum simulations.
 	•	Facilitates transitioning from experimentation to production-ready workflows. |
-Optional advanced sheets
-
+Optional advanced sheets:
 	•	Advanced_Mathematics → tensors, matrices, PDEs, applied formulas.
 	•	Physics_Experiments → mechanics, thermodynamics, electromagnetism, quantum parameters.
 	•	Reasoning_Problems → formal logic problems, experimental design, hypotheses.
@@ -483,10 +490,11 @@ Optional advanced sheets
 Aura project workbook sheets is a complete multidisciplinary hub. It 
 
 ## includes:
-        |  Advanced_Mathematics – matrices,eigenvalues, PDEs, tensor
+
+  |  Advanced_Mathematics – matrices,eigenvalues, PDEs, tensor
 		|
 		
-	   |  Physics_Experiments – mechanics, thermodynamics, electromagnetism, quantum circuits
+ |  Physics_Experiments – mechanics, thermodynamics, electromagnetism, quantum circuits
 |	   
 	    Reasoning_Problems – logic puzzles, hypotheses, experimental design|
 		Genomics_Deep – gene variants, effects, note
@@ -555,8 +563,10 @@ Aura project workbook sheets is a complete multidisciplinary hub. It
 │ Collaboration_Log      │
 │ Contributors / Version │
 └──────────────────────┘
-
+```
 
 ## conusion:
 
  AI, quantum computing, lifespan studies, applied STEM research, ethics, economics, simulations, visualization, collaboration, and deployment.
+
+[read](https://workbook.ai)
