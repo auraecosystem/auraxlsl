@@ -1,0 +1,29 @@
+# Extension Specification: `.xsim` (Simulation Configuration & State)
+
+[cite_start]**Inventor:** Seriki Yakub (KUBU LEE) [cite: 226, 380, 388]  
+[cite_start]**Parent System:** Aura Research Project Core (`.xlsl`) [cite: 380, 381]
+
+---
+
+## Overview
+
+[cite_start]The `.xsim` format defines simulation environments, external stressors, boundary conditions, and spatial configurations[cite: 232, 383]. [cite_start]It acts as the central execution workspace where physical laws, spatial transformation matrices (`.xdim`), quantum states (`.xquant`), and semantic logic gates (`.xphilo`) converge[cite: 232, 234, 237, 239].
+
+---
+
+## Internal Configuration Structure
+
+1. [cite_start]**Environmental Constants**: Stores ambient field values, thermal noise baselines, and physical space bounds[cite: 232].
+2. [cite_start]**Stressors & Interactions**: Maps external physical perturbations affecting quantum state integrity during teleportation runs[cite: 233].
+3. [cite_start]**Target Stage Coordinates**: Encodes scale parameters mapped from TP-001 (Photon) through TP-006 (Human)[cite: 383].
+
+---
+
+## Execution Pipeline
+
+1. [cite_start]**Workspace Initialization**: Ingests baseline configuration parameters[cite: 232].
+2. **Multi-Format Convergence**:
+   * [cite_start]Applies linear algebra spatial shifts from `.xdim`[cite: 237, 243].
+   * [cite_start]Loads pure quantum state matrices from `.xquant`[cite: 234].
+   * [cite_start]Enforces deontic logical boundaries from `.xphilo`[cite: 239, 240].
+3. [cite_start]**Real-time Telemetry Stream**: Streams simulation outcomes and state logs directly into active `.xlog` buffers[cite: 230].
