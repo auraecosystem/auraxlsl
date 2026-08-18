@@ -6,9 +6,8 @@ Simulation Problems
 with pd.ExcelWriter("/mnt/data/
 Aura.xlsx", engine="openpyxl",
 mode="a",
-if
-sheet
-_
+_if
+_sheet_
 _exists="replace") as
 writer:
 # Sheet 14: Pure Mathematics
