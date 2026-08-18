@@ -1,0 +1,17 @@
+# Teleportation Simulation Pipeline (TP-001 to TP-006)
+[cite_start]**Aura Research Project Architecture** **Inventor:** Seriki Yakub (KUBU LEE) [cite: 245]  
+[cite_start]**Core Framework:** Intelligent Spreadsheet Language Core (`.xlsl`) [cite: 245]
+
+---
+
+## Pipeline Overview
+[cite_start]This notebook executes the multi-stage teleportation simulation pipeline, evaluating quantum fidelity, spatial transformation stability, and logical boundary conditions across six scale thresholds[cite: 246, 754]:
+
+1. [cite_start]**TP-001: Photon** (Feasible) 
+2. [cite_start]**TP-002: Electron** (Experimental) 
+3. [cite_start]**TP-003: C60 Molecule** (Mesoscopic) 
+4. [cite_start]**TP-004: Virus** (Biological Edge) 
+5. [cite_start]**TP-005: Neuron Cluster** (Cognitive Link) 
+6. [cite_start]**TP-006: Human** (Infeasible / Boundary Restricted) 
+
+[cite_start]The pipeline integrates parameters from `.xquant` (quantum states), `.xdim` (dimensional vectors), `.xphilo` (deontic logic bounds), and `.xsim` (environmental stressors), streaming live telemetry into `.xlog`[cite: 246, 508, 510, 512, 515, 812, 813].
